@@ -1,0 +1,144 @@
+/*fuentes         font-family: 'Roboto', sans-serif;    font-family: 'Ultra', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ultra&display=swap');
+#pg-inicio{
+    margin: 100px;
+    background-color: #E0FFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#logo{
+    text-align: center;
+    color: black;
+    padding:10px;
+    text-size-adjust: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img_logo{
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+#imagen{
+    margin-top: 0;
+}
+.caja1{
+    margin-top: 0;
+    margin-right: 50px;
+    display:block;
+    color: black;
+    background-color: transparent;;
+    text-align: left;
+    border: 5px solid white;
+    font-size:20px ;
+    position: absolute; right: 5%;
+    position: absolute;top: 35%;
+    
+}
+#enlace-registro{
+    text-decoration: none;
+    background-color: #f0d4f0;
+    padding: 2px;
+    text-align: center;
+}
+#btn-registrar{
+    background-color: #f0d4f0;
+    padding: 10px;
+    position:absolute; right: 22%;
+    position: absolute;top: 30%;
+    border: 0;
+    margin: 400px;
+    margin-right: 60px;
+    border: 2px solid white;
+}
+#contacto{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    position:absolute;top:100%;
+    background-color: transparent;
+    display: inline;
+    position:absolute;right:38%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding: 30px;
+    padding-bottom: 21px;
+    margin-right: 0;
+}
+.redes{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    position:absolute;top:103%;
+    position:absolute;right:20%;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 0;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    background-color: hsl(273,10%,76%) ; 
+}
+.enviar{
+    border: none;
+    margin-top: 2rem;
+    background-color: hsl(274, 10%,27%);
+    padding: 1em 1em;
+    color: hsl(274,48%,94%) ;
+  
+    
+}
+  
+.form-group{  
+    width: min(90%,70.5rem);
+    display: flex;
+    position: absolute; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*Estilos para los label en general. Lo de transition es para cuando se cambie el tamaño de la pantalla el cambio de estilos que tiene no sea brusco*/
+label{
+    width: 100%;
+    transition: .4s;
+}
+label >h3{
+    text-align: center;
+}
+/*Estilos para los input con la clase campo*/
+.campo{
+    width:100%;
+    margin-bottom:1em;
+    border: 0;
+    border-bottom: 1.5px solid hsl(274,81%,56%);
+    background: none;
+    transition: .4s;
+    padding: 1rem;
+}
+/*Esta instrucción hace que al presionar en algún inputo aparezca el border*/
+.campo:focus{
+    outline: hsl(274,81%,56%);
+    border: 1px solid hsl(274,81%,56%);
+}
+/*acá funciona más o menos el responsive*/
+@media only screen and (max-width: 600px)  {
+}
